@@ -1,0 +1,125 @@
+html, body {font-family: 'Roboto', sans-serif;font-weight:400;}
+body {background:#F6F8FA;}
+.floatleft {float:left}
+.floatright {float:right}
+.alignleft {float:left;margin-right:15px;margin-bottom: 15px}
+.alignright {float:right;margin-left:15px;margin-bottom: 15px}
+.aligncenter {display:block;margin:0 auto 15px}
+a:focus {outline:0px solid}
+img {max-width:100%;height:auto}
+.fix {overflow:hidden}
+p {margin:0 0 15px;}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+  font-weight:700;
+}
+a {transition: all 0.3s ease 0s;text-decoration:none;}
+a:hover {
+  color: #00c292;
+  text-decoration: none;
+}
+a:active, a:hover, a:focus {
+  outline: 0 none;
+  text-decoration: none;
+}
+ul{
+list-style: outside none none;
+margin: 0;
+padding: 0
+}
+.clear{clear:both}
+body {}
+.mg-tb-40{
+	margin:40px 0px;
+}
+.mg-tb-30{
+	margin:30px 0px;
+}
+.mg-t-30{
+	margin-top:30px;
+}
+.mg-b-15{
+	margin-bottom:15px;
+}
+.mg-t-15{
+	margin-top:15px;
+}
+.mg-t-10{
+	margin-top:10px;
+}
+.mg-t-20{
+	margin-top:20px;
+}
+.nk-red{
+	background:#F44336;
+}
+.nk-pink{
+	background:#E91E63;
+}
+.nk-purple{
+	background:#9C27B0;
+}
+.nk-deep-purple{
+	background:#673AB7;
+}
+.nk-indigo{
+	background:#3F51B5;
+}
+.nk-blue{
+	background:#2196F3;
+}
+.nk-light-blue{
+	background:#03A9F4;
+}
+.nk-cyan{
+	background:#00BCD4;
+}
+.nk-teal{
+	background:#009688;
+}
+.nk-green{
+	background:#4CAF50;
+}
+.nk-light-green{
+	background:#8BC34A;
+}
+.nk-lime{
+	background:#CDDC39;
+}
+.nk-yellow{
+	background:#FFEB3B;
+}
+.nk-amber{
+	background:#FFC107;
+}
+.nk-orange{
+	background:#FF9800;
+}
+.nk-deep-orange{
+	background:#FF5722;
+}
+.nk-brown{
+	background:#795548;
+}
+.nk-gray{
+	background:#9E9E9E;
+}
+.nk-blue-gray{
+	background:#607D8B;
+}
+.nk-black{
+	background:#000000;
+}
+@font-face {
+  font-family: 'notika-icon';
+  src:  url('fonts/notika-icon.eot?qzfrsz');
+  src:  url('fonts/notika-icon.eot?qzfrsz#iefix') format('embedded-opentype'),
+    url('fonts/notika-icon.ttf?qzfrsz') format('truetype'),
+    url('fonts/notika-icon.woff?qzfrsz') format('woff'),
+    url('fonts/notika-icon.svg?qzfrsz#notika-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.sale-statistic-inner, .statistic-right-area, .email-statis-inner, .recent-post-wrapper, .blog-inner-list, .realtime-wrap, .add-todo-list, .notika-chat-list, .recent-signup-inner, .ongoing-task-inner, .contact-inner, .contact-form, .widget-tabs-int, .visitor-sv-tm-int, .search-engine-int, .alert-inner, .color-wrap, .wizard-wrap-int, .dropdown-list, .modals-list, .accordion-wn-wp, .tooltips-inner, .popovers-list, .typography-list, .typography-heading, .typography-inline-pro, .tpgp-helper, .contact-list, .inbox-left-sd, .inbox-text-list, .view-mail-list, .normal-table-list, .data-table-list, .form-element-list, .range-slider-wrap, .datepicker-int, .colorpicker-int, .summernote-wrap, .dropdone-nk, .form-example-wrap, .invoice-wrap, .google-map-single, .data-map-single, .image-cropper-wp, .nk-cd-ed-wp, .bar-chart-wp, .line-chart-wp, .area-chart-wp, .flot-chart-wp, .wb-traffic-inner, .notika-icon-int{
+	padding:20px;
+	background:#fff;}
