@@ -13,13 +13,14 @@
   <body>
 
     <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #30393f;">
+     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         <a class="navbar-brand" href="#">Men Conference GIT</a>
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation"></button>
         <div class="collapse navbar-collapse" id="collapsibleNavId">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="./index.html"> Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./signin.html">Login</a>
@@ -27,6 +28,12 @@
                 <li class="nav-item">
                   <a class="nav-link" href="./signup.html">Register</a>
               </li>
+              <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="./index.html">Home</a>
+  <a href="./signin.html">Login</a>
+  <a href="./signup.html">Register</a>
+</div>
                 <!-- <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
                     <div class="dropdown-menu" aria-labelledby="dropdownId">
@@ -102,7 +109,17 @@
 
           </div>
     </div>
-  
+ 
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
   
 
 
