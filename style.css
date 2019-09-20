@@ -36,8 +36,13 @@ body{
 }
 
 #secondPart .col-md-4{
-    width:80px;
     text-align: center;
+    width:200px
+}
+
+#img1{
+    height:460px;
+    width:300px
 }
 
 #secondPart p{
