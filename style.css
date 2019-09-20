@@ -1,6 +1,5 @@
 #jumb{
     text-align:center;
-    color :   #03fc52;
     margin-bottom: 50px
 }
 
@@ -13,27 +12,21 @@ button{
 }
 
 .jumbotron{
-    background-color: black;
+   
     border-radius:0%;
 
 }
 
-.btn-success{
-    background-color:transparent
-}
+
 
 #side{
     background-color: beige;
     margin-top: 0;
     
 }
-body{
-    background-color: grey
-}
 
-#secondPart{
-    background-color: black
-}
+
+
 
 #secondPart .col-md-4{
     text-align: center;
@@ -46,7 +39,7 @@ body{
 }
 
 #secondPart p{
-    color:white
+    color:grey
 }
 
 #secondPart h1{
